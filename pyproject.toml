@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scverify"
+version = "0.1.0"
+description = "Read-only verification that ADT/HTO counts are not mixed into GEX matrices of single-cell h5ad files"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "CC-BY-NC-SA-4.0" }
+authors = [{ name = "scVerify" }]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "scipy>=1.11",
+  "anndata>=0.10",
+  "h5py>=3.8",
+  "requests>=2.28",
+]
+
+[project.scripts]
+scverify = "scverify.cli:main"
+
+[tool.setuptools]
+packages = ["scverify"]
