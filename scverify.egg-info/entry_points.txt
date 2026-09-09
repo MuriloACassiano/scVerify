@@ -1,0 +1,2 @@
+[console_scripts]
+scverify = scverify.cli:main

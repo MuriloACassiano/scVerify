@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+scverify/__init__.py
+scverify/__main__.py
+scverify/cli.py
+scverify/verification.py
+scverify.egg-info/PKG-INFO
+scverify.egg-info/SOURCES.txt
+scverify.egg-info/dependency_links.txt
+scverify.egg-info/entry_points.txt
+scverify.egg-info/requires.txt
+scverify.egg-info/top_level.txt
